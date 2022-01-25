@@ -393,6 +393,14 @@ textarea {
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #102746;
+}
+
 .wrapper {
     max-width: 1060px;
     margin: 0 auto;
