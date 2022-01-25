@@ -397,6 +397,7 @@ body {
     font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
+    line-height: 1.2;
     font-size: 16px;
     color: #102746;
 }
@@ -408,6 +409,10 @@ body {
 
 .header {
     background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .header__wrapper {
@@ -435,4 +440,8 @@ body {
     line-height: 24px;
     color: white;
     text-decoration: none;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: .75;
 }
