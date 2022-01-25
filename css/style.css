@@ -402,17 +402,18 @@ body {
     color: #102746;
 }
 
-.wrapper {
-    max-width: 1060px;
-    margin: 0 auto;
-}
+/* Header styles start */
 
 .header {
-    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
 }
 
 .header__wrapper {
@@ -420,6 +421,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 
 .header__list {
@@ -444,4 +446,16 @@ body {
 
 .header__link:hover, .header__link:focus, .header__link:active {
     opacity: .75;
+}
+
+/* Heaader styles end */
+
+/* Intro styles start */
+
+/* Intro styles end */
+
+.intro {
+    height: 100vh;
+    background: url('../img/intro-bg.jpg') no-repeat center;
+    background-size: cover;
 }
