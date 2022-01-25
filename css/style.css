@@ -397,3 +397,7 @@ textarea {
     max-width: 1060px;
     margin: 0 auto;
 }
+
+.header {
+    background-color: black;
+}
