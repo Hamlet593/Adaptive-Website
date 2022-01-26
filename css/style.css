@@ -19,7 +19,7 @@
 /* Intro styles start */
 
 .intro {
-    height: 100vh;
+    min-height: 100vh;
     background: url('../img/intro-bg.jpg') no-repeat center;
     background-size: cover;
     padding-top: 263px;
@@ -47,7 +47,7 @@
 }
 
 .search-form__field {
-    background: transparent url(../img/svg/circle-icon.svg) no-repeat left top;
+    background: transparent url(../img/svg/circle-icon.svg) no-repeat left 6px;
     background-size: 20px;
     border: 0;
     border-bottom: 2px solid #BFC0C5;
@@ -64,6 +64,20 @@
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.search-form__submit {
+    background: #1B7DFF;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 15px 39px;
+    text-transform: uppercase;
+    border: 0px;
+}
+
+.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active {
+    background: #196ad3;
 }
 
 /* Intro styles end */
