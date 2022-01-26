@@ -43,27 +43,27 @@
 
 .search-form__info {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .search-form__field {
-    margin-right: 62px;
+    background: transparent url(../img/svg/circle-icon.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid #BFC0C5;
+    margin-right: 60px;
+    width: 297px;
+    padding-left: 43px;
+    padding-bottom: 22px;
     font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
     color: #FFFFFF;
 }
 
-.search-form__submit {
+.search-form__field::placeholder {
     font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    background: #1B7DFF;
+    font-size: 18px;
     color: #FFFFFF;
-}
-
-.search-form__field {
-    background-color: transparent;
 }
 
 /* Intro styles end */
