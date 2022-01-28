@@ -14,4 +14,6 @@
 
 @import url('header.css');
 
-/* Importing Card styles  */
+/* Importing Intro styles  */
+
+@import url('intro.css');
