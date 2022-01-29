@@ -17,3 +17,25 @@
 /* Importing Intro styles  */
 
 @import url('intro.css');
+
+.benefrits {
+    margin-bottom: 130px;
+}
+
+.benefits__wrap {
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+}
+
+.benefits__title {
+    padding: 93px 100px 88px 100px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    background-color: white;
+    position: absolute;
+    transform: translateY(-100%);
+}
