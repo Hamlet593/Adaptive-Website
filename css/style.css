@@ -25,3 +25,12 @@
 /* Importing Places styles  */
 
 @import url('./places.css');
+
+/* Importing Tours styles  */
+
+@import url('./tours.css');
+
+/* Importing Top styles  */
+
+@import url('./top.css');
+
