@@ -37,3 +37,7 @@
 /* Importing Video styles  */
 
 @import url('./video.css');
+
+/* Importing Footer styles */
+
+@import url('./footer.css');

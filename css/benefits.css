@@ -51,10 +51,10 @@
     line-height: 24px;
     text-decoration: none;
     color: #006DFE;
-    background: url('../img/svg/shape-ico.svg') no-repeat 95% center;
+    background: url('../img/svg/arrow-right-ico.svg') no-repeat 95% center;
     transition: .5s all;
 }
 
 .benefits__card-more:hover, .benefits__card-more:focus {
-    background: url('../img/svg/shape-ico.svg') no-repeat right center;
+    background: url('../img/svg/arrow-right-ico.svg') no-repeat right center;
 }
