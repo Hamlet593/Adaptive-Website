@@ -23,3 +23,5 @@
 @import url('benefits.css');
 
 /* Importing Places styles  */
+
+@import url('./places.css');
