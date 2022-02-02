@@ -3,17 +3,10 @@
 }
 
 .places__caption{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     margin-bottom: 36px;
 }
 
@@ -34,12 +27,9 @@
 }
 
 .places__cards{
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
     grid-template-columns: repeat(6, 1fr);
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-gap: 10px;
 }
 
 .places__card{
@@ -60,9 +50,7 @@
 }
 
 .places__card:hover .places__card-pic{
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .places__card-title{
@@ -76,32 +64,26 @@
 }
 
 .places__card_size_lg{
-    -ms-grid-column-span: 3;
     grid-column: span 3;
 }
 
 .places__card_size_sm{
-    -ms-grid-column-span: 2;
     grid-column: span 2;
 }
 
 .places__card-pic{
     width: 100%;
-    -webkit-transition: .15s all;
-    -o-transition: .15s all;
     transition: .15s all;
 }
 
 .places__card-pic_size_lg{
     height: 354px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .places__card-pic_size_sm{
     height: 283px;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .places__card-link{
