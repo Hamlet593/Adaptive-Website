@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adaptive Website from Hamo</title>
+    <title>Discover Amazing places in Japan</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- Header Start -->
-    <div class="header">
+    <!-- Header start -->
+    <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
-                <div>
-                    <a href="/">
-                        <img src="./img/svg/odigo-logo.svg" alt="Logo" class="header__logo-pic">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/odigo-logo.svg" alt="Discover Amazing places in Japan" class="header__logo-pic">
                     </a>
                 </div>
+    
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
@@ -35,8 +35,10 @@
                 </nav>
             </div>
         </div>
-    </div>
-    <!-- Header End -->
+    </header>
+    <!-- Header end -->
+
+
     <main class="main">
         <!-- Intro start -->
         <section class="intro">
@@ -47,17 +49,21 @@
                 <p class="intro__subtitle">
                     Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over. Being gorgeous with belly side up i could pee on this if i had the energy but under the bed, for attack the child, open the door, 
                 </p>
-                <form class="search-form__info">
-                    <input type="text" name="user-like-to-do" class="search-form__field" placeholder="What would you like to do?">
-                    <input type="text" name="user-like-to-go" class="search-form__field" placeholder="Where would you like to go?">
-                    <button type="submit" class="search-form__submit">search</button>
+                <form class="search-form">
+                    <fieldset class="serach-form__wrap">
+                        <p class="search-form__info">
+                            <input type="text" name="user-like-to-do" class="search-form__field" placeholder="What would you like to do?">
+                            <input type="text" name="user-like-to-do" class="search-form__field" placeholder="Where would you like to go?">
+                            <button type="submit" class="search-form__submit">search</button>
+                        </p>
+                    </fieldset>
                 </form>
             </div>
         </section>
         <!-- Intro end -->
-
-        <!-- Benefits start -->
-        <section class="benefrits">
+        
+        <!-- Benefits start -->        
+        <section class="benefits">
             <div class="benefits__wrap">
                 <h2 class="benefits__title">
                     Benefits of Odigo
@@ -65,24 +71,26 @@
                 <div class="benefits__cards">
                     <div class="benefits__card">
                         <div class="benefits__card-pic">
-                            <img src="./img/svg/church-ico.svg" alt="church" class="benefits__card-thumb">
+                            <img src="./img/svg/church-ico.svg" alt="Welcome to Odigo!" class="benefits__card-thumb">
                         </div>
                         <h3 class="benefits__card-title">
                             Welcome to Odigo!
                         </h3>
-                        <p class="benefits__card-desk">
+                        <p class="benefits__card-desc">
                             Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                         </p>
-                        <a href="#!" class="benefits__card-more">LEARN MORE</a>
+                        <a href="#!" class="benefits__card-more">
+                            LEARN MORE
+                        </a>
                     </div>
                     <div class="benefits__card">
                         <div class="benefits__card-pic">
-                            <img src="./img/svg/person-ico.svg" alt="person" class="benefits__card-thumb">
+                            <img src="./img/svg/person-ico.svg" alt="Your Personal Japan Guide" class="benefits__card-thumb">
                         </div>
                         <h3 class="benefits__card-title">
                             Your Personal Japan Guide
                         </h3>
-                        <p class="benefits__card-desk">
+                        <p class="benefits__card-desc">
                             Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                         </p>
                         <a href="#!" class="benefits__card-more">
@@ -91,22 +99,23 @@
                     </div>
                     <div class="benefits__card">
                         <div class="benefits__card-pic">
-                            <img src="./img/svg/building-ico.svg" alt="buliding" class="benefits__card-thumb">
+                            <img src="./img/svg/building-ico.svg" alt="Promoting Local Businesses" class="benefits__card-thumb">
                         </div>
                         <h3 class="benefits__card-title">
-                            Promoting Local Businesses
+                                Promoting Local Businesses
                         </h3>
-                        <p class="benefits__card-desk">
-                            Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
+                        <p class="benefits__card-desc">
+                                Jump off balcony, onto stranger's head. Chase ball of string hide when guests come over.
                         </p>
                         <a href="#!" class="benefits__card-more">
                             LEARN MORE
                         </a>
                     </div>
+                </div>
             </div>
         </section>
-        <!-- Benefits end -->
-
+        <!-- Benefits end -->   
+        
         <!-- Places start -->  
         <section class="places">
             <div class="wrapper-full">
@@ -119,50 +128,50 @@
 
                 <div class="places__cards">
 
-                    <div class="places__card places__card_size_lg">
+                    <figure class="places__card places__card_size_lg">
                         <img src="./img/place-1.jpg" alt="Mount Fuji" class="places__card-pic places__card-pic_size_lg">
-                        <h3 class="places__card-title">
+                        <figcaption class="places__card-title">
                             Mount Fuji
-                        </h3>
+                        </figcaption>
                         <a href="#!" class="places__card-link"></a>
-                    </div>
+                    </figure>
                     
-                    <div class="places__card places__card_size_lg">
+                    <figure class="places__card places__card_size_lg">
                         <img src="./img/place-2.jpg" alt="Kyoto" class="places__card-pic places__card-pic_size_lg">
-                        <h3 class="places__card-title">
+                        <figcaption class="places__card-title">
                             Kyoto
-                        </h3>
+                        </figcaption>
                         <a href="#!" class="places__card-link"></a>
-                    </div>
+                    </figure>
 
-                    <div class="places__card places__card_size_sm">
+                    <figure class="places__card places__card_size_sm">
                         <img src="./img/place-3.jpg" alt="Tokyo" class="places__card-pic places__card-pic_size_sm">
-                        <h3 class="places__card-title">
+                        <figcaption class="places__card-title">
                             Tokyo
-                        </h3>
+                        </figcaption>
                         <a href="#!" class="places__card-link"></a>
-                    </div>
+                    </figure>
 
-                    <div class="places__card places__card_size_sm">
+                    <figure class="places__card places__card_size_sm">
                         <img src="./img/place-4.jpg" alt="Niigata" class="places__card-pic places__card-pic_size_sm">
-                        <h3 class="places__card-title">
+                        <figcaption class="places__card-title">
                             Niigata
-                        </h3>
+                        </figcaption>
                         <a href="#!" class="places__card-link"></a>
-                    </div>
+                    </figure>
 
-                    <div class="places__card places__card_size_sm">
+                    <figure class="places__card places__card_size_sm">
                         <img src="./img/place-5.jpg" alt="Sapporo" class="places__card-pic places__card-pic_size_sm">
-                        <h3 class="places__card-title">
+                        <figcaption class="places__card-title">
                             Sapporo
-                        </h3>
+                        </figcaption>
                         <a href="#!" class="places__card-link"></a>
-                    </div>
+                    </figure>
 
                 </div>
             </div>
         </section>
-        <!-- Places end -->
+        <!-- Places end --> 
 
         <!-- Tours start -->
 
@@ -202,7 +211,7 @@
             </div>
         </div>
 
-        <!-- Tours end -->
+        <!-- Tours start -->
 
         <!-- Top start -->
         <section class="top">
@@ -378,71 +387,71 @@
             </div>
         </div>
         <!-- Videos end -->
-        
-        <footer class="footer">
-            <div class="wrapper">
-                <div class="footer__item">
-                    <div class="footer__logo">
-                        <img src="./img/svg/odigo-logo-footer.svg" alt="Discover Amazing places in Japan" class="footer__logo-pic">
-                    </div>
-                    <nav class="footer__nav">
-                        <ul class="footerm__menu">
-                            <li class="footer__menu-item">
-                                <h3 class="footer__menu-title">Company</h3>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                        </ul>
-                        <ul class="footerm__menu">
-                            <li class="footer__menu-item">
-                                <h3 class="footer__menu-title">Locations</h3>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                        </ul>
-                        <ul class="footerm__menu">
-                            <li class="footer__menu-item">
-                                <h3 class="footer__menu-title">Social Media</h3>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Facebook</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">About</a>
-                            </li>
-                            <li class="footer__menu-item">
-                                <a href="#!" class="footer__menu-link">Team</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </footer>
-
-
     </main>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="./img/svg/odigo-logo-footer.svg" alt="Discover Amazing places in Japan" class="footer__logo-pic">
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Company</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Locations</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                    </ul>
+                    <ul class="footerm__menu">
+                        <li class="footer__menu-item">
+                            <h3 class="footer__menu-title">Social Media</h3>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Facebook</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">About</a>
+                        </li>
+                        <li class="footer__menu-item">
+                            <a href="#!" class="footer__menu-link">Team</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

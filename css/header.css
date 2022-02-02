@@ -1,88 +1,38 @@
-html{
-     box-sizing: border-box;
- }
- *, *::before, *::after{
-     box-sizing: inherit;
- }
- 
- body{
-     font-family: 'Lato';
-     font-style: normal;
-     font-size: 16px;
-     line-height: 1.2;
-     font-weight: normal;
-     color: #102746;
- }
- 
- img{
-     max-width: 100%;
-     height: auto;
- }
- 
- .wrapper{
-     max-width: 1060px;
-     margin: 0 auto;
- }
- 
- .wrapper-full{
-     max-width: 1262px;
-     margin: 0 auto;
- }
-
- .section-title{
-     font-weight: 500;
-     font-size: 35px;
-     line-height: 42px;
-     position: relative;
-     padding-bottom: 10px;
- }
- 
- .section-title::after{
-     display: block;
-     content: '';
-     width: 253px;
-     height: 3px;
-     background-color: #006DFE;
-     position: absolute;
-     bottom: 0;
-     left: 0;
- }
-
- .header{
-     position: fixed;
-     top: 0;
-     left: 0;
-     width: 100%;
-     transition: .2s linear;
-     padding-bottom: 20px;
-     z-index: 999;
- }
- .header_active{
-     background: #0E1D28;
- }
- .header__wrapper{
-     display: flex;
-     flex-wrap: wrap;
-     align-items: flex-end;
-     justify-content: space-between;
-     padding-top: 56px;
- }
- .header__list{
-     display: flex;
-     flex-wrap: wrap;
- }
- .header__item{
-     margin-right: 82px;
- }
- .header__item:last-child{
-     margin-right: 0;
- }
- .header__link{
-     font-size: 18px;
-     line-height: 24px;
-     color: white;
-     text-decoration: none;
- }
- .header__link:hover, .header__link:focus, .header__link:active{
-     opacity: .75;
- }
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+.header_active{
+    background: #0E1D28;
+}
+.header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 56px;
+}
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__item{
+    margin-right: 82px;
+}
+.header__item:last-child{
+    margin-right: 0;
+}
+.header__link{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
