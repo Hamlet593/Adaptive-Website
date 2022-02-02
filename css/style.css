@@ -48,6 +48,55 @@
     .header__burger {
         display: block;
     }
-}
+    .header__nav {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        padding: 75px;
+    }
+    .header__item {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .header__item:last-child {
+        margin-bottom: 0px;
+    }
+
+    .header__link{
+        font-size: 42px;
+        line-height: 48px;
+    }
+
+    .header__nav-close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 11;
+    }
+    
+    .header__nav-close-line {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: white;
+        top: 50%;
+    }
+
+    .header__nav-close-line:first-child {
+        transform: translateY(-50%) rotate(45deg)
+    }
+
+    .header__nav-close-line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
 
 /* Media End */
