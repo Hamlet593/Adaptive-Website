@@ -77,6 +77,22 @@
     .places__card_size_sm {
         grid-column: span 6;
     }
+
+    .tours__tour {
+        grid-column-gap: 35px;
+    }
+
+    .tour__info {
+        padding-left: 0px;
+    }
+
+    .tour__title {
+        margin-bottom: 15px;
+    }
+
+    .tour__desk {
+        margin-bottom: 15px;
+    }
 }
 
 @media screen and (max-width: 767px) {
