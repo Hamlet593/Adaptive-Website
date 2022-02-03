@@ -229,7 +229,22 @@
         margin-bottom: 20px;
     }
 
-    
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .section-title::after {
+        width: 50px;
+    }
+
+    .places__card_size_lg, .places__card_size_sm {
+        height: 230px;
+    }
+
+    .places {
+        margin-bottom: 76px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
