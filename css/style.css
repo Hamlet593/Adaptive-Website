@@ -258,7 +258,15 @@
     }
 
     .tours__tour {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    .tours {
+        margin-bottom: 76px;
+    }
+
+    .top__card {
+        grid-column: span 6;
     }
 }
 
