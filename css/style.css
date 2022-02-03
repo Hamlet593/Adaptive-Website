@@ -179,18 +179,29 @@
     .header__nav-close-line:last-child {
         transform: translateY(-50%) rotate(-45deg);
     }
+
+    .benefits {
+        margin-bottom: 36px;
+    }
     
     .benefits__card {
         grid-column: span 3;
+        margin-bottom: 40px;
     }
 
     .search-form__field {
         width: 100%;
         margin-right: 0;
+        margin-bottom: 12px;
+        background: transparent url(../img/svg/circle-ico.svg) no-repeat left 2px;
+    }
+
+    .search-form__field::placeholder {
+        font-size: 16px;
     }
 
     .intro {
-        padding-top: 150px;
+        padding-top: 125px;
     }
 
     .intro__title {
@@ -202,8 +213,30 @@
         font-size: 14px;
     }
 
-    
+    .search-form__submit {
+        width: 100%;
+    }
 
+    .benefits__card-pic {
+        margin-bottom: 20px;
+    }
+
+    .benefits__card-title {
+        margin-bottom: 12px;
+    }
+
+    .benefits__card-desc {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width: 500px) {
+    .header__nav {
+        padding: 75px 30px;
+    }
+    
 }
 
 /* Media End */
