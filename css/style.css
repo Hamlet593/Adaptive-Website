@@ -54,8 +54,28 @@
         grid-column-gap: 35px;
     }
 
+    .benefits {
+        margin-bottom: 75px;
+    }
+
+    .benefits__card {
+        margin-bottom: 60px;
+    }
+
     .benefits__title {
         padding: 55px 15px;
+    }
+    
+    .benefits__wrap {
+        box-shadow: none;
+    }
+
+    .places__card_size_lg {
+        grid-column: span 6;
+    }
+
+    .places__card_size_sm {
+        grid-column: span 6;
     }
 }
 
