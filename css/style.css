@@ -90,9 +90,27 @@
         margin-bottom: 15px;
     }
 
-    .tour__desk {
+    .tour__desc {
         margin-bottom: 15px;
     }
+
+    .top__cards {
+        grid-column-gap: 25px;
+        grid-row-gap: 55px;
+    }
+
+    .top__card {
+        grid-column: span 3;
+    }
+
+    .top__card-pic {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        padding: 60px 0px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
