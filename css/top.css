@@ -8,7 +8,8 @@
 .top__cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 57px;
+    grid-column-gap: 57px;
+    grid-row-gap: 57px;
 }
 
 .top__card-pic{
