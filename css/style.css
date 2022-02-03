@@ -265,8 +265,30 @@
         margin-bottom: 76px;
     }
 
+    .top {
+        margin-bottom: 76px;
+    }
+
     .top__card {
         grid-column: span 6;
+    }
+
+    .top__card-desc {
+        margin-bottom: 15px;
+    }
+
+    .footer__logo {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .footer__nav {
+        width: 100%;
+    }
+
+    .footerm__menu {
+        width: 50%;
+        margin-bottom: 24px;
     }
 }
 
