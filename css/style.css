@@ -245,6 +245,21 @@
         margin-bottom: 76px;
     }
 
+    .tour__pic, .tour__info {
+        grid-column: span 2;
+    }
+
+    .tour__pic {
+        margin-bottom: 12px;
+    }
+
+    .tour__pic_mob-first {
+        grid-row-start: -1;
+    }
+
+    .tours__tour {
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 500px) {
